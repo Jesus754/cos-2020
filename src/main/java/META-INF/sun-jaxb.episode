@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.2.11 
+Visite <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2020.12.01 a las 06:15:43 PM ART 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://com/cos/soap/model/dto">
+    <schemaBindings map="false">
+      <package name="com.cos.soap.model.dto"/>
+    </schemaBindings>
+    <bindings scd="tns:postAnimalAlertRequest">
+      <class ref="com.cos.soap.model.dto.PostAnimalAlertRequest"/>
+    </bindings>
+    <bindings scd="tns:postHerdAlertRequest">
+      <class ref="com.cos.soap.model.dto.PostHerdAlertRequest"/>
+    </bindings>
+    <bindings scd="tns:getCowResponse">
+      <class ref="com.cos.soap.model.dto.GetCowResponse"/>
+    </bindings>
+    <bindings scd="~tns:Cow">
+      <class ref="com.cos.soap.model.dto.Cow"/>
+    </bindings>
+    <bindings scd="~tns:CowBcs">
+      <class ref="com.cos.soap.model.dto.CowBcs"/>
+    </bindings>
+    <bindings scd="tns:statusResponse">
+      <class ref="com.cos.soap.model.dto.StatusResponse"/>
+    </bindings>
+    <bindings scd="tns:getCowRequest">
+      <class ref="com.cos.soap.model.dto.GetCowRequest"/>
+    </bindings>
+    <bindings scd="tns:postCowBcsRequest">
+      <class ref="com.cos.soap.model.dto.PostCowBcsRequest"/>
+    </bindings>
+    <bindings scd="tns:postCowRequest">
+      <class ref="com.cos.soap.model.dto.PostCowRequest"/>
+    </bindings>
+    <bindings scd="tns:postCowHerdRequest">
+      <class ref="com.cos.soap.model.dto.PostCowHerdRequest"/>
+    </bindings>
+    <bindings scd="tns:getHerdRequest">
+      <class ref="com.cos.soap.model.dto.GetHerdRequest"/>
+    </bindings>
+    <bindings scd="tns:getHerdResponse">
+      <class ref="com.cos.soap.model.dto.GetHerdResponse"/>
+    </bindings>
+    <bindings scd="~tns:Herd">
+      <class ref="com.cos.soap.model.dto.Herd"/>
+    </bindings>
+    <bindings scd="~tns:AnimalAlert">
+      <class ref="com.cos.soap.model.dto.AnimalAlert"/>
+    </bindings>
+    <bindings scd="~tns:HerdAlert">
+      <class ref="com.cos.soap.model.dto.HerdAlert"/>
+    </bindings>
+  </bindings>
+</bindings>
+
