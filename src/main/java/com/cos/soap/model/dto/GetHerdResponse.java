@@ -2,7 +2,7 @@
 // Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.2.11 
 // Visite <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-// Generado el: 2020.12.01 a las 06:15:43 PM ART 
+// Generado el: 2020.12.12 a las 10:36:07 AM ART 
 //
 
 
@@ -72,11 +72,7 @@ public class GetHerdResponse {
         this.id = value;
     }
 
-    public void setCow(List<Cow> cow) {
-		this.cow = cow;
-	}
-
-	/**
+    /**
      * Obtiene el valor de la propiedad location.
      * 
      * @return
@@ -145,4 +141,9 @@ public class GetHerdResponse {
         this.bcsPromedio = value;
     }
 
+	public void setCow(List<Cow> cow) {
+		this.cow = cow;
+	}
+    
+    
 }

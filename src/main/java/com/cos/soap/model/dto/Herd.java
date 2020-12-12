@@ -2,7 +2,7 @@
 // Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.2.11 
 // Visite <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-// Generado el: 2020.12.01 a las 06:15:43 PM ART 
+// Generado el: 2020.12.12 a las 10:36:07 AM ART 
 //
 
 
@@ -47,11 +47,7 @@ import javax.xml.bind.annotation.XmlType;
 })
 public class Herd {
 
-    public void setCows(List<Cow> cows) {
-		this.cows = cows;
-	}
-
-	protected int id;
+    protected int id;
     @XmlElement(required = true)
     protected List<Cow> cows;
     @XmlElement(required = true)
@@ -143,5 +139,11 @@ public class Herd {
     public void setBcsPromedio(double value) {
         this.bcsPromedio = value;
     }
+
+	public void setCows(List<Cow> cows) {
+		this.cows = cows;
+	}
+    
+    
 
 }
